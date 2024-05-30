@@ -13,13 +13,13 @@ namespace WebApplication1
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-           "Employee", "Employee/{name}", new
-           {
-               controller = "Employee",
-               action = "Search",
-               name = UrlParameter.Optional
-           });
+           // routes.MapRoute(
+           //"Employee", "Employee/{name}", new
+           //{
+           //    controller = "Employee",
+           //    action = "Search",
+           //    name = UrlParameter.Optional
+           //});
 
             routes.MapRoute(
                 name: "Default",
